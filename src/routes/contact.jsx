@@ -137,6 +137,7 @@ const Contact = () => {
                 <div className={`${styles.message} ${messageError && styles.error}`}>
                     <label htmlFor='message'>Message</label>
                     <textarea 
+                        id='message'
                         name='message' 
                         placeholder="Send me a message and I'll reply you as soon as possible..."
                         ref={messageInputRef}
